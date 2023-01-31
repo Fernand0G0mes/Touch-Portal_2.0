@@ -1,0 +1,252 @@
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+
+#logo {
+    width: 150px;
+    margin-top: 39px;
+    margin-left: 10px;
+    filter: contrast(100%);
+}
+
+
+nav {
+    z-index: 9999;
+    position: fixed ;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 118px;
+    font-weight: 900;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif  
+    
+}
+
+li {
+    font-size: 20px;
+    display: inline-block;
+    margin: 15px;
+    margin-top: 30px;
+}
+
+#links {
+    margin-right: 80px;
+    margin-top: 20px;
+}
+
+section {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+    font-family: sans-serif;
+ 
+}
+
+p {
+    position: relative;
+    right: 142px;
+    top: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#page2 {
+    height: 120vh;
+    margin-top: 500px;
+}
+
+.icon-div-1 {
+    z-index: 9999;
+    overflow: hidden;
+    margin-top: -100px;
+    margin-left: 150px;
+    width: 85%;}
+
+
+.container {
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+
+
+.container figure#celular {
+    position: absolute;
+    top: 260px;
+    left: 190px;
+    z-index: 1;
+}
+
+.container figure#luz {
+    position: relative;
+    right: 350px;
+    z-index: 0;
+}
+
+.work {
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 350px;
+    
+}
+
+.logos {
+    position: absolute;
+    margin-left: 1077px;
+    margin-top: 420px;
+}
+
+.gplay {
+    position: absolute;
+    margin-left: 1420px;
+    margin-top: 510px;
+}
+
+.appstore {
+    position: absolute;
+    margin-left: 1170px;
+    margin-top: 510px;
+}
+
+
+
+
+
+
+
+.um {
+    background: #000000;
+    overflow: hidden;
+    display: flex;
+    background-image: url(../IMG/FUNDO\ SUPERIOR.png);
+
+}
+
+.dois {
+    background: #ffffff;
+}
+
+.tres {
+    background: #181be7;
+}
+
+.quatro {
+    background: #18e756;
+}
+
+.cinco {
+    background: #ff00c8;
+}
+
+.seis {
+    background: #ff0000;
+}
+
+
+
+
+
+#l1 {
+    border-left: 3px solid rgb(0, 0, 0);
+    height: 40px;
+    position: absolute;
+    left: 275px;
+    top: 45px;
+  }
+
+  #l2 {
+    border-left: 3px solid rgb(0, 0, 0);
+    height: 40px;
+    position: absolute;
+    left: 1515px;
+    top: 45px;
+  }
+
+  #l3 {
+    border-left: 3px solid rgb(0, 0, 0);
+    height: 40px;
+    position: absolute;
+    left: 1650px;
+    top: 45px;
+  }
+
+  #l4 {
+    border-left: 3px solid rgb(0, 0, 0);
+    height: 40px;
+    position: absolute;
+    left: 1745px;
+    top: 45px;
+  }
+
+                                
+                                
+
+#what {
+                                    font-weight: 800;
+                                    border: 2px solid #4b4b4b;
+                                    padding: 10px;
+                                    border-radius: 15px;
+                                }
+
+#what:hover{
+                                    background-image: linear-gradient(45deg, #4b4b4b, #000000);
+                                    color: white;
+                                }
+
+#Get :hover {
+                                    background-image: linear-gradient(45deg, #ff82da, #ff1658);
+                                    background-size: 100%;
+                                    -webkit-background-clip: text;
+                                    background-clip: text;
+                                    -webkit-text-fill-color: transparent; 
+                                    -moz-text-fill-color: transparent;
+                                    }
+
+#down :hover {
+                                    background-image: linear-gradient(45deg, #1acc47, #038539);
+                                    background-size: 100%;
+                                    -webkit-background-clip: text;
+                                    background-clip: text;
+                                    -webkit-text-fill-color: transparent; 
+                                    -moz-text-fill-color: transparent;
+                                }
+
+#Pricing :hover {
+                                    background-image: linear-gradient(45deg, #3eb8ff, #161aff);
+                                    background-size: 100%;
+                                    -webkit-background-clip: text;
+                                    background-clip: text;
+                                    -webkit-text-fill-color: transparent; 
+                                    -moz-text-fill-color: transparent;
+                                }
+
+#Help :hover {
+                                    background-image: linear-gradient(45deg, #ff0000, #ffa216);
+                                    background-size: 100%;
+                                    -webkit-background-clip: text;
+                                    background-clip: text;
+                                    -webkit-text-fill-color: transparent; 
+                                    -moz-text-fill-color: transparent;
+                                }
+
+ a {
+                                    color: black;
+                                    font-weight: 500;
+                                }
+
+                              
+
+
+
+

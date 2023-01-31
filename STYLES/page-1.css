@@ -25,3 +25,38 @@
     right: 350px;
     z-index: 0;
 }
+
+.work {
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 350px;
+    
+}
+
+.logos {
+    position: absolute;
+    margin-left: 1077px;
+    margin-top: 420px;
+}
+
+.gplay {
+    position: absolute;
+    margin-left: 1420px;
+    margin-top: 510px;
+}
+
+.appstore {
+    position: absolute;
+    margin-left: 1170px;
+    margin-top: 510px;
+}
+
+.um {
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    background: #000000;
+    overflow: hidden;
+    display: flex;
+    background-image: url(../IMG/FUNDO\ SUPERIOR.png);
+
+}

@@ -1,8 +1,50 @@
 .tres {
     background: #000000;
     height: 150vh;
+    
+
 }
 
+
+.pixelado {
+    
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+#pixel-top {
+
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    margin-top: 1960px;
+  
+}
+
+
+
+.pixel-top2 {
+    transform: rotateY(180deg);
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    margin-top: 2300px;
+    clip-path: inset(0px 0px 170px 0px)
+    
+
+
+  
+}
+
+.pixel-bottom {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+     margin-top: 1050px;
+  
+}
 
 
 .img3 {
@@ -11,3 +53,5 @@
     clip-path: inset(0px 0px 1038px 0px)
  
 }
+
+

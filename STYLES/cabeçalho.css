@@ -62,17 +62,8 @@ p {
     font-weight: 500;
 }
 
-#page2 {
-    height: 120vh;
-    margin-top: 500px;
-}
 
-.icon-div-1 {
-    z-index: 9999;
-    overflow: hidden;
-    margin-top: -100px;
-    margin-left: 150px;
-    width: 85%;}
+
 
 
 .container {

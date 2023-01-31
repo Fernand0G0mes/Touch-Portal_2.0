@@ -66,24 +66,10 @@ p {
 
 
 
-.container {
-    scroll-snap-type: y mandatory;
-    height: 100vh;
-}
 
 
-.container figure#celular {
-    position: absolute;
-    top: 260px;
-    left: 190px;
-    z-index: 1;
-}
 
-.container figure#luz {
-    position: relative;
-    right: 350px;
-    z-index: 0;
-}
+
 
 .work {
     position: absolute;

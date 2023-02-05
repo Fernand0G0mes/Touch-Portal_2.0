@@ -1,11 +1,13 @@
 
+
 * {
-    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-
+    max-width: 1920px;
+    margin: 0 auto;
 }
+
 
 
 #logo {
@@ -17,6 +19,7 @@
 
 
 nav {
+    width: 100%;
     z-index: 9999;
     position: fixed ;
     background-color: rgb(255, 255, 255);
@@ -29,16 +32,20 @@ nav {
     box-shadow: rgba(22, 20, 53, 0.55) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif  
     
+    
 }
 
 li {
+    
     font-size: 20px;
     display: inline-block;
     margin: 15px;
     margin-top: 30px;
+
 }
 
 #links {
+    
     margin-right: 80px;
     margin-top: 20px;
 }
@@ -51,6 +58,8 @@ section {
     align-items: center;
     scroll-snap-align: start;
     font-family: sans-serif;
+    
+    
  
 }
 
@@ -79,23 +88,25 @@ p {
     border-left: 3px solid rgb(0, 0, 0);
     height: 40px;
     position: absolute;
-    left: 275px;
+    left: 272px;
     top: 45px;
+    
   }
 
   #l2 {
     border-left: 3px solid rgb(0, 0, 0);
     height: 40px;
     position: absolute;
-    left: 1515px;
+    left: 1504px;
     top: 45px;
+    
   }
 
   #l3 {
     border-left: 3px solid rgb(0, 0, 0);
     height: 40px;
     position: absolute;
-    left: 1650px;
+    left: 1645px;
     top: 45px;
   }
 
@@ -111,16 +122,20 @@ p {
                                 
 
 #what {
-                                    font-weight: 800;
-                                    border: 2px solid #4b4b4b;
-                                    padding: 10px;
-                                    border-radius: 15px;
-                                }
+
+                   
+font-weight: 800;
+border: 2px solid #4b4b4b;
+padding: 4px;
+border-radius: 15px;     
+}
 
 #what:hover{
-                                    background-image: linear-gradient(45deg, #4b4b4b, #000000);
-                                    color: white;
-                                }
+                       
+background-image: linear-gradient(45deg, #4b4b4b, #000000);
+color: white;
+
+}
 
 #Get :hover {
                                     background-image: linear-gradient(45deg, #ff82da, #ff1658);

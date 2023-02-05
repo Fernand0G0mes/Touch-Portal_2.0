@@ -26,12 +26,14 @@
 
 
 .pixel-top2 {
+    z-index: 4;
     transform: rotateY(180deg);
     overflow: hidden;
     position: absolute;
     width: 100%;
     margin-top: 2300px;
     clip-path: inset(0px 0px 170px 0px)
+
     
 
 
@@ -43,14 +45,17 @@
     position: relative;
     width: 100%;
      margin-top: 1050px;
+    z-index: 2;
   
 }
 
 
 .img3 {
+    z-index: 3;
     margin-top: 1100px;
     width: 100%;
     clip-path: inset(0px 0px 1038px 0px)
+    
  
 }
 
